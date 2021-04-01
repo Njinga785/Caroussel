@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+#container {
+    
+    display: flex;
+    border: black 2px solid;
+    border-radius: 30px;
+    height: 550px;
+    width: 800px;
+    position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#bloc-image {
+    position: relative;
+    display: inline-block;
+    
+   
+    
+}
+
+.images {
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    border-radius: 30px;
+ 
+}
+
+#arrow-container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gauche { 
+    position: relative;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#droite {
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    z-index: 2;
+}*
+
+#upload {
+    position: absolute;
+    margin: 30px 0;
+    padding: 0;
+    bottom: 5px;
+    cursor: pointer;
+   
+}
+
+#autorun {
+    width: 150px;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.image-active {
+    z-index: 1;
+}
+
+.pause {
+    background-color: red;
+}
