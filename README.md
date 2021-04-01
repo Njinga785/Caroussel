@@ -1,1 +1,7 @@
-# Caroussel
+# Caroussel 
+
+## Techno 
+
+* Javascript
+* Html
+* Css
